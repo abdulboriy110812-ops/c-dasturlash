@@ -3,7 +3,7 @@
 void mashq1(void) {
     const char ISM[] = "Eldorbek";
     int yosh = 14;
-    float boy = 1.78;
+    float boy = 1.77;
     double og_irlik = 76.5;
     const char JINS = 'M';
     
