@@ -103,11 +103,13 @@ int main(void) {
 
 void mashq8(void) {
     
-    int harorat = 5;
-    if (harorat > 40){
-        printf("\nSoyabon va kepka shart sababi harorat 40 gradusdan baland");
+    int harorat = 55;
+    if (harorat <= 40){
+        printf("kepka olaman havo harorati %d",  harorat);
+    }else if (harorat <= 45){
+        printf("Soyabon olaman harorat esa %d", harorat);
     }else{
-        printf("Soyabon va kepka shart emas sababi harorat 40 gradusdan past");
+        printf("Soyabon va kepka olaman harorat esa %d", harorat);
     }
 }
 
@@ -120,5 +122,6 @@ int main(void) {
     mashq6();
     mashq7();
     mashq8();
+
     return 0;
 }
