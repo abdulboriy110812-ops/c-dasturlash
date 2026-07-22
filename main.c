@@ -96,9 +96,19 @@ int main(void) {
     printf("long long: %zu\n", sizeof(long long));
     printf("float: %zu\n", sizeof(float));
     printf("double: %zu\n", sizeof(double));
-    printf("long double: %zu\n", sizeof(long double));
+    printf("long double: %zu\n\n", sizeof(long double));
     
 }
+}
+
+void mashq8(void) {
+    
+    int harorat = 5;
+    if (harorat > 40){
+        printf("\nSoyabon va kepka shart sababi harorat 40 gradusdan baland");
+    }else{
+        printf("Soyabon va kepka shart emas sababi harorat 40 gradusdan past");
+    }
 }
 
 int main(void) {
@@ -109,6 +119,6 @@ int main(void) {
     mashq5();
     mashq6();
     mashq7();
-
+    mashq8();
     return 0;
 }
