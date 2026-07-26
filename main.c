@@ -85,9 +85,9 @@ void mashq6(void) {
 }
 
 void mashq7(void) {
-    #include <stdio.h>
+    
 
-int main(void) {
+
     printf("Hajmlar (byte):\n");
     printf("char: %zu\n", sizeof(char));
     printf("short: %zu\n", sizeof(short));
@@ -98,7 +98,8 @@ int main(void) {
     printf("double: %zu\n", sizeof(double));
     printf("long double: %zu\n\n", sizeof(long double));
     
-}
+
+
 }
 
 void mashq8(void) {
